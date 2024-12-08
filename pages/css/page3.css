@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", serif;
+    color: rgb(80, 80, 80);
+    box-sizing: border-box;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(50, 129, 255, 0.889);
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 260px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+}
+
+.form-inp {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 2fr 0fr 1fr 6fr;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+input {
+    font-size: 20px;
+}
+
+textarea {
+    font-size: 12px;
+}
+
+button {
+    background-color: rgba(50, 129, 255, 0.889);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    border-radius: 3px;
+    height: 50px;
+    width: 90%;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover {
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+label {
+    color: white;
+}
